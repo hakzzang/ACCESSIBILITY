@@ -13,5 +13,11 @@ class MainActivity : AppCompatActivity() {
         binding.cardLabelFor.setOnClickListener {
             startActivity(Intent(this, LabelForActivity::class.java))
         }
+        binding.cardMergeFocus.setOnClickListener {
+            startActivity(Intent(this, MergeFocusActivity::class.java))
+        }
+        binding.cardSendEvent.setOnClickListener {
+            startActivity(Intent(this, SendEventActivity::class.java))
+        }
     }
 }
