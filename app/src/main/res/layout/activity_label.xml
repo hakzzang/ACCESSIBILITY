@@ -25,7 +25,7 @@
             android:layout_weight="2"
             android:gravity="center"
             android:labelFor="@id/username_edittext"
-            android:text="user"
+            android:text="똥개"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -35,8 +35,6 @@
             android:layout_height="wrap_content"
             android:layout_weight="2"
             android:hint="input username"
-            android:labelFor="@id/username_textview"
-
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
     </LinearLayout>
