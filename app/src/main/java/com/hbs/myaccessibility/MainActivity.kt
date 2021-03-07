@@ -19,5 +19,8 @@ class MainActivity : AppCompatActivity() {
         binding.cardSendEvent.setOnClickListener {
             startActivity(Intent(this, SendEventActivity::class.java))
         }
+        binding.cardMoveFocus.setOnClickListener {
+            startActivity(Intent(this, MoveFocusActivity::class.java))
+        }
     }
 }
