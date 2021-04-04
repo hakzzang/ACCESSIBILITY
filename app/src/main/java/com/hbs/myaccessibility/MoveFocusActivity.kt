@@ -1,6 +1,7 @@
 package com.hbs.myaccessibility
 
 import android.os.Bundle
+import android.view.accessibility.AccessibilityEvent
 import android.view.accessibility.AccessibilityNodeInfo
 import androidx.appcompat.app.AppCompatActivity
 import com.hbs.myaccessibility.databinding.ActivityMoveFocusBinding
@@ -21,6 +22,10 @@ class MoveFocusActivity : AppCompatActivity() {
                 binding.targetButton.performAccessibilityAction(AccessibilityNodeInfo.ACTION_CLEAR_ACCESSIBILITY_FOCUS, null)
             }
             isMovable = !isMovable
+        }
+
+        binding.targetButton2.setOnClickListener {
+            binding.targetTextview2.sendAccessibilityEvent(AccessibilityEvent.TYPE_VIEW_FOCUSED)
         }
     }
 }
