@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/target_1_textview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="NORMAL CLICK ACTION"
+            android:focusable="true"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:importantForAccessibility="no">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/target_1_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="NORMAL CLICK HINT MESSAGE"
+            android:backgroundTint="@color/teal_200"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/target_2_textview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="DISABLE double on tap"
+            android:focusable="true"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:importantForAccessibility="no">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/target_2_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="DISABLE hint message"
+            android:backgroundTint="@color/teal_200"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/target_3_textview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="DISABLE double on tap2"
+            android:focusable="true"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:importantForAccessibility="no">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:focusable="true">
+            <Button
+                android:id="@+id/target_3_button"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:text="DISABLE HINT MESSAGE"
+                android:importantForAccessibility="no"
+                android:backgroundTint="@color/teal_200"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/target_4_textview"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:text="Edit Hint Message"
+            android:focusable="true"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:importantForAccessibility="no">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/target_4_button"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="EDIT HINT MESSAGE"
+            android:backgroundTint="@color/teal_200"
+            />
+
+    </LinearLayout>
+</LinearLayout>
