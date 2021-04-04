@@ -22,5 +22,8 @@ class MainActivity : AppCompatActivity() {
         binding.cardMoveFocus.setOnClickListener {
             startActivity(Intent(this, MoveFocusActivity::class.java))
         }
+        binding.cardHintMessage.setOnClickListener {
+            startActivity(Intent(this, HintMessageActivity::class.java))
+        }
     }
 }
